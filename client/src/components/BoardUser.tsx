@@ -1,5 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  BarChart,
+  Bar,
+  Legend,
+  Tooltip,
+  CartesianGrid,
+} from 'recharts';
 
 import { getUserBoard } from '../services/user.service';
 import EventBus from '../common/EventBus';
@@ -37,6 +47,15 @@ const BoardUser: React.FC = () => {
         <CartesianGrid stroke='#ddd' strokeDasharray='5 5' />
         <Line dataKey='cpu_hours' isAnimationActive={false} />
       </LineChart>
+
+      <BarChart width={1000} height={340} data={csvData}>
+        <CartesianGrid strokeDasharray='3 3' />
+        <XAxis dataKey='ymd' />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Bar dataKey='cpu_hours' fill='#82ca9d' />
+      </BarChart>
     </div>
   );
 };
