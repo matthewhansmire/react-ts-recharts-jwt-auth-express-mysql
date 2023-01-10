@@ -45,3 +45,49 @@ What was the most difficult part of the challenge?
 What do you like about your implementation?
 
 If you had more time, what would you do next? What would you change? What would you improve?
+
+# Node.js – JWT Authentication & Authorization example with JSONWebToken & Sequelize
+## Project setup
+```
+cd server
+yarn
+```
+
+### Run
+```
+yarn start
+```
+
+# React Typescript Authentication example with Hooks, Axios and Rest API
+
+Build React Typescript Authentication and Authorization example using React Hooks, React Router, Axios and Bootstrap:
+- JWT Authentication Flow for User Signup & User Login
+- Project Structure for React Typescript Authentication with React Router & Axios
+- Creating React Components with Form Validation using Formik and Yup
+- React Typescript Components for accessing protected Resources (Authorization)
+- Dynamic Navigation Bar in React Typescript App
+
+## Project setup
+```
+cd client
+```
+
+In the project directory, you can run:
+
+```
+npm install
+# or
+yarn install
+```
+
+or
+
+### Compiles and hot-reloads for development
+
+```
+npm start
+# or
+yarn start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
