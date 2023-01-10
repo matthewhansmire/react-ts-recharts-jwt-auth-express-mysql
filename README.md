@@ -58,6 +58,10 @@ yarn
 yarn start
 ```
 
+### Note
+Make sure if you installed mysql on your local machine.
+Then Start mysql and create database named "testdb"
+
 # React Typescript Authentication example with Hooks, Axios and Rest API
 
 Build React Typescript Authentication and Authorization example using React Hooks, React Router, Axios and Bootstrap:
